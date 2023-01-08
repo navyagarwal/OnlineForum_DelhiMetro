@@ -8,6 +8,7 @@
   },
   "scripts": {
     "dev": "nodemon ./index.js",
+    "build": "npm run now-build",
     "start": "node index.js",
     "test": "jest"
   },
