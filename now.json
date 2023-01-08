@@ -2,7 +2,7 @@
   "version": 2,
   "name": "OnlineForum_DelhiMetro",
   "env": {
-    "DATABASE_URL": "@database-url"
+    "DATABASE_URL": 'mongodb://localhost/reddit'
   },
   "builds": [
     { "src": "client/package.json", "use": "@now/static-build" },
