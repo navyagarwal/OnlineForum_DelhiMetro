@@ -19,7 +19,7 @@ const Polls = styled(Link)`
 `;
 
 // const HeaderPolls = () => <Polls to='../'>DMRC Polls</Polls>;
-const HeaderPolls = () => <a style={{color: "white", padding: 12, marginRight: 730, fontSize: 18, textDecoration: 'None'}} href="https://codefrontend.com" target="_blank">
+const HeaderPolls = () => <a style={{color: "white", padding: 12, marginRight: 680, fontSize: 18, textDecoration: 'None'}} href="https://codefrontend.com" target="_blank">
   DMRC Polls
 </a>
 export default HeaderPolls;

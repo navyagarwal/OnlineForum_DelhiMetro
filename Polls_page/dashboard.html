@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/x-icon" href="dmrc_logo.ico">
+    <title>DMRC Dashboard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheet.css">
+
+
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="polls.html">Polls</a>
+  <a href="#dashboard" class="active">Analytics Dashboard</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<div class="container">
+
+<div class="mx-10 grid grid-cols-1 gap-x-8 gap-y-10 place-items-center p-8 md:grid-cols-2 xl:grid-cols-3">
+
+      <div class="w-full h-full rounded p-6 text-white" style="background-color: 1B1B1B; border: 1px solid #393939;">
+      <h2  class="text-xl">Passenger Profiling Survey - Dec, 2022</h2>
+      <br>
+      <p style="color: green;">IN PROGRESS</p>
+      <br>
+      Due on: 31/12/2022</p>
+    </div>
+
+
+      <div class="w-full h-full rounded p-6 text-white" style="background-color: 1B1B1B; border: 1px solid #393939;">
+      <h1  class="text-xl">Customer Satisfaction Survey - Aug, 2022</h1>
+      <br>
+      <p><p style="color: green;">IN PROGRESS</p>
+      <br>
+      Due on: 31/07/2022</p>
+    </div>
+
+
+      <div class="w-full h-full rounded p-6 text-white" style="background-color: 1B1B1B; border: 1px solid #393939;">
+      <h1  class="text-xl">Customer Satisfaction Survey - June, 2022</h1>
+      <br>
+      <p><p style="color: rgb(197, 0, 0);">CLOSED</p><br>
+      <button style="background-color: rgb(197, 0, 0); padding-inline: 10px; padding-block: 5px; color: white;"><a href="report.html" style="text-decoration: none;">VIEW REPORT</a></button></p>  
+    </div>
+
+
+      <div class="w-full h-full rounded p-6 text-white" style="background-color: 1B1B1B; border: 1px solid #393939;">
+      <h1  class="text-xl">Introducing new stations on Blue Line</h1>
+      <br>
+      <br>
+      <p><p style="color: rgb(197, 0, 0);">CLOSED</p><br>
+      <button style="background-color: rgb(197, 0, 0); padding-inline: 10px; padding-block: 5px; color: white;">VIEW REPORT</button></p>  
+    </div>
+
+
+
+
+</div>
+
+
+</div>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/x-icon" href="dmrc_logo.ico">
+    <title>DMRC Polls</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheet.css">
+<style>
+    form p{
+        padding-bottom: 15px;
+    }
+    form input, textarea, select, option{
+        background-color: #333333;
+        color: whitesmoke;
+        padding: 10px;
+        border-radius: 5px;
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0px;
+        margin-bottom: 20px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Polls</a>
+  <a href="dashboard.html">Analytics Dashboard</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<div class="container">
+
+<h3>Aug - Dec, 2022 Surveys</h3>
+<button type="button" class="collapsible">Passenger Profiling Survey - Dec, 2022</button>
+<div class="content">
+<form style="padding: 20px;">
+    <fieldset style="padding-inline: 100px; padding-block: 50px;">
+      <legend>All fields are required</legend>
+      
+      
+        <label>Name &nbsp; <input name="firstName" /></label>
+      
+        <label style="margin-right: 60px;">Gender</label>
+        <label>Male<input style="width: 5%; margin-right: 30px;" type="radio" name="gender" value="male" /></label>
+        <label>Female<input style="width: 5%; margin-right: 30px;" type="radio" name="gender" value="male" /></label>
+        <label>Non-Binary<input style="width: 5%; margin-right: 30px;" type="radio" name="gender" value="male" /></label>
+        <br>
+
+        <label>
+            Area of Residence &nbsp;
+            <select name="salutation">
+              <option style="padding: 10px;">Other</option>
+              <option>New Delhi</option>
+              <option>Central Delhi</option>
+              <option>North Delhi</option>
+              <option>South Delhi</option>
+              <option>West Delhi</option>
+              <option>North East Delhi</option>
+              <option>North West Delhi</option>
+              <option>South East Delhi</option>
+              <option>South West Delhi</option>
+              <option>Shahdara</option>
+              <option>Ghaziabad</option>
+              <option>Noida</option>
+              <option>Gurgaon</option>
+            </select>
+        </label>  
+      
+        <label>Email &nbsp;<input type="email" name="email" /></label>
+        
+        <label>Age Group</label><br>
+        <ul style="list-style-type:none;">
+            <li><input style="width: 5%;" type="radio" name="language" value="15-20" />15-20 yrs</li>
+            <li><input style="width: 5%;"type="radio" name="language" value="21-30" />21-30 yrs</li>
+            <li><input style="width: 5%;"type="radio" name="language" value="31-40" />31-40 yrs</li>
+            <li><input style="width: 5%;"type="radio" name="language" value="31-40" />41-50 yrs</li>
+            <li><input style="width: 5%;"type="radio" name="language" value="31-40" />above 50</li>
+          </ul>
+
+
+          <label>Which Metro line(s) do you travel in?</label><br>
+          <ul style="list-style-type:none;">
+              <li style="color: red;"><input style="width: 5%;" type="checkbox" name="language" value="15-20" />Red</li>
+              <li style="color: blue;"><input style="width: 5%;"type="checkbox" name="language" value="21-30" />Blue</li>
+              <li style="color: violet;"><input style="width: 5%;"type="checkbox" name="language" value="31-40" />Violet</li>
+              <li style="color: yellow;"><input style="width: 5%;"type="checkbox" name="language" value="31-40" />Yellow</li>
+              <li style="color: magenta;"><input style="width: 5%;"type="checkbox" name="language" value="31-40" />Magenta</li>
+              <li style="color: pink;"><input style="width: 5%;"type="checkbox" name="language" value="31-40" />Pink</li>
+              <li style="color: orange;"><input style="width: 5%;"type="checkbox" name="language" value="31-40" />Orange</li>
+              <li style="color: green;"><input style="width: 5%;"type="checkbox" name="language" value="31-40" />Green</li>
+            </ul>
+        <label>
+
+
+            <label>Usual purpose of travel</label><br>
+          <ul style="list-style-type:none;">
+              <li><input style="width: 5%;" type="checkbox" name="language" value="15-20" />College/ School</li>
+              <li><input style="width: 5%;"type="checkbox" name="language" value="21-30" />Office</li>
+              <li><input style="width: 5%;"type="checkbox" name="language" value="31-40" />Leisure</li>
+              <li><input style="width: 5%;"type="checkbox" name="language" value="31-40" />Other</li>
+            </ul>
+        <label>
+
+
+          Any other comments? &nbsp;
+          <br>
+          <textarea name="address" cols="100" rows="5"></textarea>
+        </label>
+      
+      
+        <button type="submit" style="padding: 10px; background-color: #333333; color: whitesmoke; width: 100%; cursor: pointer; border: 1px solid #656565;">Submit</button>
+      
+ 
+ 
+     </fieldset>
+  </form>
+</div>
+
+<button type="button" class="collapsible">Customer Satisfaction Survey - Aug, 2022</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+
+<h3>Feb - July, 2022 Surveys</h3>
+<button type="button" class="collapsible">Customer Satisfaction Survey - June, 2022 <span style="color: rgb(197, 0, 0);">&nbsp CLOSED</span></button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button type="button" class="collapsible">Introducing new stations on Blue Line<span style="color: rgb(197, 0, 0);">&nbsp CLOSED</span></button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button type="button" class="collapsible">Ridership survey - March, 2022<span style="color: rgb(197, 0, 0);">&nbsp CLOSED</span></button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button type="button" class="collapsible">Customer Satisfaction Survey - Feb, 2022<span style="color: rgb(197, 0, 0);">&nbsp CLOSED</span></button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<h3>Nov 2021 - Jan 2022 Surveys</h3>
+<button type="button" class="collapsible">Passenger Profiling Survey - Nov, 2021<span style="color: rgb(197, 0, 0);">&nbsp CLOSED</span></button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button type="button" class="collapsible">Metro cards to be used in DTC buses - Nov, 2021<span style="color: rgb(197, 0, 0);">&nbsp CLOSED</span></button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button type="button" class="collapsible">Customer Satisfaction Survey - Jan, 2022<span style="color: rgb(197, 0, 0);">&nbsp CLOSED</span></button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+
+
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
